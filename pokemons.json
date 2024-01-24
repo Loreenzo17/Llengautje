@@ -1,0 +1,62 @@
+{
+    "pokemons": [
+      {
+        "id": 1,
+        "nom": "Bulbasaur",
+        "tipus": ["Planta", "Venen"],
+        "pes": 6.9,
+        "altura": 0.7,
+        "color": "Verd",
+        "estadistiques": {
+          "velocitat": 45,
+          "força": 49,
+          "precisio": 65,
+          "resistencia": 49
+        },
+        "moviments": [
+          {
+            "nom": "Llavor",
+            "descripcio": "Llança llavors petites per fer mal a l'enemic.",
+            "potencia": 40,
+            "contacte": true
+          },
+          {
+            "nom": "Venen Gust",
+            "descripcio": "Allibera gas venenós per enverinar l'enemic.",
+            "potencia": 55,
+            "contacte": false
+          }
+        ],
+        "imatge": "https://example.com/bulbasaur-image.jpg"
+      },
+      {
+        "id": 2,
+        "nom": "Charmander",
+        "tipus": ["Foc"],
+        "pes": 8.5,
+        "altura": 0.6,
+        "color": "Vermell",
+        "estadistiques": {
+          "velocitat": 65,
+          "força": 52,
+          "precisio": 60,
+          "resistencia": 43
+        },
+        "moviments": [
+          {
+            "nom": "Llançaflames",
+            "descripcio": "Allibera flames ardents per cremar l'enemic.",
+            "potencia": 90,
+            "contacte": true
+          },
+          {
+            "nom": "Rugit",
+            "descripcio": "Aterra l'enemic amb un crit fort i aterrador.",
+            "potencia": 0,
+            "contacte": false
+          }
+        ],
+        "imatge": "https://example.com/charmander-image.jpg"
+      }
+    ]
+  }
